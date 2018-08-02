@@ -1,0 +1,15 @@
+        <form  method="POST" action="j_security_check">
+            <table>
+                <tr>
+                    <td>Nombre de usuario:&nbsp;</td>
+                    <td><input type="text" name="j_username"></td>
+                </tr>
+                <tr>
+                    <td>Contraseña:&nbsp;</td>
+                    <td><input type="password" name="j_password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="ingresar"></td>
+                </tr>
+            </table>
+        </form>
